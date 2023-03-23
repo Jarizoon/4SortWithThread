@@ -15,10 +15,16 @@
         <Button Content="Parallel-Async" Margin="620,66,40,331" Height="37" Width="140" Click="ParallelAsync"/>
 
         <TextBlock Text="Thread" FontSize="15" Width="70" Height="20" Margin="30,137,700,277"></TextBlock>
-        <TextBox x:Name="Thread1" FontSize="15" Width="70" Height="20" Margin="130,137,600,277">Thread1</TextBox>
-        <TextBox x:Name="Thread2" FontSize="15" Width="70" Height="20" Margin="230,137,500,277">Thread2</TextBox>
-        <TextBox x:Name="Thread3" FontSize="15" Width="70" Height="20" Margin="330,137,400,277">Thread3</TextBox>
-        <TextBox x:Name="Thread4" FontSize="15" Width="70" Height="20" Margin="430,137,300,277">Thread4</TextBox>
+        <TextBlock Text="Time" FontSize="15" Width="70" Height="20" Margin="671,137,59,277"></TextBlock>
+        
+        <TextBlock Text="UIThread" FontSize="15" Width="70" Height="20" Margin="580,80,150,277"></TextBlock>
+        <TextBlock Text="ThreadAsy" FontSize="15" Width="70" Height="20" Margin="490,107,240,307"></TextBlock>
+        <TextBox x:Name="Thread1" FontSize="15" Width="70" Height="20" Margin="102,137,628,277">Thread1</TextBox>
+        <TextBox x:Name="Thread2" FontSize="15" Width="70" Height="20" Margin="196,137,534,277">Thread2</TextBox>
+        <TextBox x:Name="Thread3" FontSize="15" Width="70" Height="20" Margin="294,137,436,277">Thread3</TextBox>
+        <TextBox x:Name="Thread4" FontSize="15" Width="70" Height="20" Margin="392,137,338,277">Thread4</TextBox>
+        <TextBox x:Name="Thread5" FontSize="15" Width="70" Height="20" Margin="490,137,240,277">ThrAsync</TextBox>
+        <TextBox x:Name="Thread6" FontSize="15" Width="70" Height="20" Margin="580,137,150,277">ThreadUI</TextBox>
 
         <TextBlock Text="Selection" FontSize="15" Margin="30,195,700,219" Width="70" Height="20"></TextBlock>
         <TextBox x:Name="Selection" FontSize="15" Margin="102,179,148,215" Width="550" Height="40">Sel</TextBox>
